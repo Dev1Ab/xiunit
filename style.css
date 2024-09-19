@@ -1,0 +1,92 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+ul{
+    padding: 0;
+    width: 80%;
+}
+
+li{
+    list-style-type: none;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label{
+    margin-right: 10px;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.box{
+    border: none;
+    height: 1.7em;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.form{
+    background-color: rgba(169, 169, 169,0.3);
+    
+    width: 30vw;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(3, 3, 31, 0.8);
+}
+
+.btn{
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(3, 3, 31, 0.8);
+    color: white;
+    padding: 7px;
+ 
+    font-size: 1.1em !important;
+}
+
+.btn-li{
+    justify-content: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color:rgba(3, 3, 31, 0.6);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(3, 3, 31, 0.8);
+}
+
+.login-link{
+    justify-content: center;
+}
+
+.login-link > a{
+    color: rgb(57, 129, 193) ;
+}
+
+a{
+    text-decoration: none;
+
+}

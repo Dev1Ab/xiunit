@@ -1,0 +1,206 @@
+
+/* General styling for Dashboards XI Unit*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: aliceblue;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo>h1{
+    color: rgba(3, 3, 31, 0.8);
+}
+
+.welcome{
+    background-color: rgba(168, 168, 168, 0.2);
+    display: grid;
+    grid-template-columns: 1.6fr 0.4fr;
+    grid-template-rows: 1fr;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.text{
+    grid-row: span 2;
+}
+
+.welcome>h3{
+    font-size: 1em;
+    grid-area: 2/2/3/3;
+}
+
+
+
+.blue{
+    background-color: rgba(3, 3, 31,0.8);
+    width: 170px;
+    padding: 3px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.white{
+    background-color: #fff;
+    width: 150px;
+    padding: 2px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+.box{
+    background-color: rgba(3, 3, 31, 0.8);
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fac-white{
+    background-color: #fff;
+    height: 20%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;    
+}
+
+.fac-white>p{
+    color: rgba(3, 3, 31, 0.8);
+}
+
+.fac>p>#status{
+    color: #38C36F;
+}
+
+#status{
+    color: #E8572A;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+.upload-section button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #252525;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Cleared and pending sections */
+.cleared, .pending {
+    margin-bottom: 20px;
+}
+
+.cleared h1, .pending h1 {
+    color: green;
+    font-size: 3rem;
+}
+
+.pending h1 {
+    color: red;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+/* Progress Bar Styling */
+.progress-container {
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #252525;
+    width: 0;
+    border-radius: 10px;
+}
+
+/* PDF Upload Section */
+.upload-section {
+    margin: 20px 0;
+}
+
+.upload-section label {
+    margin-right: 10px;
+}
+
+.upload-section button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #252525;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.upload-section button:hover {
+    background-color: #252525;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(3, 3, 31, 0.8);
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}

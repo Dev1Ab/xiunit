@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Affairs Clearance Dashboard</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img height="50" src="images/university.png" alt="University Logo">
+            <h1>University Clearance</h1>
+        </div>
+        <div class="notification"><img height="30" src="images/bell-notification-social-media.png" alt="notification"></div>
+    </div>
+
+    <div class="welcome">
+        <div class="text">
+            <h2>Clinic Clearance</h2>
+        </div>
+        <div class="status">
+            <h3>Muhammad Abdullahi</h3>
+            <h3>CST/18/IFT/9875</h3>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="count">
+
+        <a href="#"><div class="box">
+            <div></div>
+            <h1 id="sta-com">5106</h1>
+            
+            <div class="fac-white fac">
+                <p>Status: <span id="status">Cleared</span></p>
+            </div>
+        </div></a>
+        <a href="#"><div class="box">
+            <div></div>
+            <h1 id="sta-com">6713</h1>
+            
+            <div class="fac-white facc">
+                <p>Status: <span id="status">Pending</span></p>
+            </div>
+        </div></a>
+    </div>
+
+    <!-- Progress Bar Section -->
+    <div class="progress-container">
+        <h3>Clearance Progress</h3>
+        <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+        </div>
+    </div>
+
+    <!-- PDF Upload Section -->
+    <div class="upload-section">
+        <h3>Upload University Clearance Form</h3>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="pdf-upload">Choose PDF file:</label>
+            <input type="file" id="pdf-upload" name="pdf-upload" accept="application/pdf" required>
+            <button type="submit">Submit for Clearance</button>
+        </form>
+    </div>
+
+    <!-- Table of Students -->
+    <div>
+        <table class="table">
+            <tr>
+                <th>Request</th>
+                <th>Name</th>
+                <th>Matric Number</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Muhammad Abdallah</td>
+                <td>CST/18/IFT/00320</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Salisu Ahmad</td>
+                <td>CST/18/IFT/00321</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Umar Habibu Ahmad</td>
+                <td>CST/18/IFT/00322</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer"><p>Copyright &copy; 2024</p></div>
+
+</body>
+</html>
